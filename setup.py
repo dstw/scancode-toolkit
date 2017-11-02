@@ -244,6 +244,7 @@ setup(
         'scancode_post_scan': [
             'mark-source = scancode.plugin_mark_source:MarkSource',
             'copyrights-summary = scancode.plugin_copyrights_summary:CopyrightSummary',
+            'espedexify = scancode.plugin_espedexify:replace_boilerplate_with_spdx_ids',
         ],
 
         # scancode_output_filter is the entry point for filter plugins executed
